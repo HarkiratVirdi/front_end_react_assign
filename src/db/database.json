@@ -1,0 +1,97 @@
+[
+  {
+    "status": {
+      "connected": true,
+      "admin": "Clio",
+      "date_refresh": "Fri, 27 Aug 2021 20:38:48"
+    },
+    "tasks": {
+      "name": "Make this Application",
+      "deadline": "Fri, 27 Aug, 2021",
+      "status": "Completed"
+    },
+    "reports": {
+      "name": "Harkirat Singh Virdi",
+      "from": "03-09-2021",
+      "to": "08-09-2021",
+      "created_at": "Wed 1 Sept, 2021",
+      "created_by": "Harkirat Singh Virdi"
+    }
+  },
+  {
+    "reports": {
+      "name": "John Smith",
+      "from": "03-10-2021",
+      "to": "08-12-2021",
+      "created_at": "Thurs 1 Sept, 2021",
+      "created_by": "John Smith"
+    },
+    "status": {
+      "connected": false,
+      "admin": "Sam",
+      "date_refresh": "Fri, 27 Aug 2021 20:38:48"
+    },
+    "tasks": {
+      "name": "Learn Angular",
+      "deadline": "Fri, 10 sept, 2021",
+      "status": "Completed"
+    }
+  },
+  {
+    "reports": {
+      "name": "Marie Smith",
+      "from": "23-09-2021",
+      "to": "01-09-2021",
+      "created_at": "Tuesday 01 June, 2021",
+      "created_by": "Harkirat Singh Virdi"
+    },
+    "status": {
+      "connected": true,
+      "admin": "Clio",
+      "date_refresh": "Fri, 27 Aug 2021 20:38:48"
+    },
+    "tasks": {
+      "name": "Make this Application",
+      "deadline": "Fri, 27 Aug, 2021",
+      "status": "Completed"
+    }
+  },
+  {
+    "reports": {
+      "name": "Helena Rogers",
+      "from": "01-01-2021",
+      "to": "01-09-2021",
+      "created_at": "Friday 1 Sept, 2021",
+      "created_by": "Harkirat Singh Virdi"
+    },
+    "status": {
+      "connected": true,
+      "admin": "Clio",
+      "date_refresh": "Fri, 27 Aug 2021 20:38:48"
+    },
+    "tasks": {
+      "name": "Make this Application",
+      "deadline": "Fri, 27 Aug, 2021",
+      "status": "Completed"
+    }
+  },
+  {
+    "reports": {
+      "name": "Jake Dawson",
+      "from": "03-01-2021",
+      "to": "09-04-2021",
+      "created_at": "Sunday 10 August, 2021",
+      "created_by": "Jake Dawson"
+    },
+    "status": {
+      "connected": true,
+      "admin": "Clio",
+      "date_refresh": "Fri, 27 Aug 2021 20:38:48"
+    },
+    "tasks": {
+      "name": "Make this Application",
+      "deadline": "Fri, 27 Aug, 2021",
+      "status": "Completed"
+    }
+  }
+]
