@@ -3,6 +3,15 @@ import TableHeading from "../TableHeading/TableHeading";
 
 const Tasks = ({ data }) => {
   const headings = ["Name", "Date & Time", "Status"];
+
+  const determineColor = (status) => {
+    return status === "In Progress"
+      ? "orange"
+      : status === "Rejected"
+      ? "red"
+      : "green";
+  };
+
   return (
     <div className="tasks info_container">
       <div className="col">
@@ -13,9 +22,9 @@ const Tasks = ({ data }) => {
       {data.map((e) => {
         return (
           <tr>
-            <td>{e.tasks.name}</td>
-            <td>{e.tasks.deadline}</td>
-            <td>{e.tasks.status}</td>
+            <td>{e.name}</td>
+            <td>{e.deadline}</td>
+            <td style={{ color: determineColor(e.status) }}>{e.status}</td>
           </tr>
         );
       })}

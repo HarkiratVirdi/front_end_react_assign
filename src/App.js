@@ -9,15 +9,25 @@ import database from "./db/database.json";
 
 function App() {
   const [allClients, setAllClients] = useState([]);
-
+  const [currentClient, setcurrentClient] = useState([database[0]]);
   useEffect(() => {
     database.forEach((e) => {
-      allClients.push(e.reports.name);
+      allClients.push(e.client);
     });
 
     setAllClients(allClients);
     console.log("cli", allClients);
   }, []);
+
+  const handleClientChange = (e) => {
+    const name = e.target.innerText;
+    const currentCli = database.filter((each) => {
+      return each.client === name;
+    });
+
+    setcurrentClient(currentCli);
+    console.log("current", currentCli);
+  };
 
   return (
     <div className="App">
@@ -26,9 +36,13 @@ function App() {
       </header>
       <hr />
       <main>
-        <InfoHeader clientList={allClients}></InfoHeader>
+        <InfoHeader
+          changeClient={handleClientChange}
+          clientList={allClients}
+          currentClient={currentClient}
+        ></InfoHeader>
         <Heading></Heading>
-        <ClientData data={database}></ClientData>
+        <ClientData data={currentClient[0]}></ClientData>
       </main>
     </div>
   );

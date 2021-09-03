@@ -4,11 +4,13 @@ import Status from "../Status/Status";
 import Reports from "../Reports/Reports";
 
 const ClientData = ({ data }) => {
+  const { reports, tasks, status, client } = data;
+
   return (
     <div className="ClientData">
-      <Status data={data}></Status>
-      <Tasks data={data}></Tasks>
-      <Reports data={data}></Reports>
+      <Status data={status}></Status>
+      <Tasks data={tasks}></Tasks>
+      <Reports data={reports}></Reports>
     </div>
   );
 };

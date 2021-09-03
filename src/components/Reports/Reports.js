@@ -10,6 +10,8 @@ const Reports = ({ data }) => {
     "Download",
   ];
 
+  console.log("report data", data);
+
   return (
     <div className="reports info_container">
       <div className="col">
@@ -18,18 +20,22 @@ const Reports = ({ data }) => {
       </div>
       <table>
         <TableHeading width="w-80" heading={headings}></TableHeading>
-
-        {data.map((e) => {
-          return (
-            <tr>
-              <td>{e.reports.name}</td>
-              <td>{e.reports.from}</td>
-              <td>{e.reports.to}</td>
-              <td>{e.reports.created_at}</td>
-              <td>{e.reports.created_by}</td>
-            </tr>
-          );
-        })}
+        <tbody>
+          {data.map((e) => {
+            return (
+              <>
+                <tr>
+                  <td>{e.name}</td>
+                  <td>{e.from}</td>
+                  <td>{e.to}</td>
+                  <td>{e.created_at}</td>
+                  <td>{e.created_by}</td>
+                </tr>
+                <hr />
+              </>
+            );
+          })}
+        </tbody>
       </table>
     </div>
   );
