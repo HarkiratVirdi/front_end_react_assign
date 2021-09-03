@@ -20,10 +20,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ml-1 {
-  margin-left: 1rem;
-}
-
 .App {
   display: flex;
   width: 100%;
@@ -60,11 +56,14 @@ li img {
 
 main {
   width: 100%;
+  background-color: rgb(241, 241, 241);
 }
 
 .InfoHeader {
   display: flex;
   justify-content: space-between;
+  background-color: white;
+  padding: 0.5rem;
 }
 
 .client_info_left {
@@ -79,8 +78,29 @@ main {
   margin-right: 2rem;
 }
 
+.col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rounded_button {
+  border-radius: 1rem;
+  color: orange;
+  /* border-color: orange; */
+  padding: 0.5rem;
+
+  outline: none;
+  border: 1px solid orange;
+}
+
+.small {
+  font-size: 0.7rem;
+}
+
 .ClientData {
-  margin-left: 1rem;
+  margin: 0 1rem;
+  display: flex;
 }
 
 .show {
@@ -118,4 +138,65 @@ button {
   padding: 0.2rem;
   background-color: white;
   outline: none;
+  border: 1px solid black;
+}
+
+.user_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page_desc {
+  margin: 1rem;
+}
+
+/* status */
+
+.ClientData {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info_container {
+  padding: 1.5rem;
+  background-color: white;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.status {
+  flex: 1;
+}
+
+.tasks {
+  flex: 1;
+}
+
+.reports {
+  width: 100%;
+}
+
+.heading_row {
+  background-color: rgb(241, 241, 241);
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+.w-40 {
+  width: 35vw;
+}
+
+.w-85 {
+  width: 80vw;
+}
+
+th {
+  font-weight: 600;
+  padding-right: 2rem;
+  text-align: left;
+}
+
+td {
+  padding-right: 4rem;
 }

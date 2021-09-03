@@ -11,7 +11,7 @@ function App() {
   const [allClients, setAllClients] = useState([]);
 
   useEffect(() => {
-    const clientsNames = database.forEach((e) => {
+    database.forEach((e) => {
       allClients.push(e.reports.name);
     });
 
@@ -28,7 +28,7 @@ function App() {
       <main>
         <InfoHeader clientList={allClients}></InfoHeader>
         <Heading></Heading>
-        <ClientData></ClientData>
+        <ClientData data={database}></ClientData>
       </main>
     </div>
   );

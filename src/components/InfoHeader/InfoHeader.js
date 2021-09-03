@@ -11,9 +11,9 @@ const daysDropdown = [
 const InfoHeader = ({ clientList }) => {
   return (
     <>
-      <div className="InfoHeader ml-1">
+      <div className="InfoHeader">
         <div className="client_info_left">
-          <h1>Dashboard</h1>
+          <h2>Dashboard</h2>
           <p>
             {" "}
             <b>Client:</b> Schaden, Towne and Beahan{" "}
@@ -25,8 +25,8 @@ const InfoHeader = ({ clientList }) => {
           <div className="user_login">
             <img src="" alt="" />
             <div className="user_name">
-              <h6> Jane Cooper</h6>
-              <p>Developer</p>
+              <h5 style={{ whiteSpace: "nowrap" }}> Jane Cooper</h5>
+              <small>Developer</small>
             </div>
           </div>
         </div>

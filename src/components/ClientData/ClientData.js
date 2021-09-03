@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Tasks from "../Tasks/Tasks";
 import Status from "../Status/Status";
 import Reports from "../Reports/Reports";
 
-const ClientData = () => {
+const ClientData = ({ data }) => {
   return (
     <div className="ClientData">
-      <Status></Status>
-      <Tasks></Tasks>
-      <Reports></Reports>
+      <Status data={data}></Status>
+      <Tasks data={data}></Tasks>
+      <Reports data={data}></Reports>
     </div>
   );
 };

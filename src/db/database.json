@@ -1,8 +1,14 @@
 [
   {
     "status": {
-      "connected": true,
-      "admin": "Clio",
+      "admin1": {
+        "connected": true,
+        "admin": "Clio"
+      },
+      "admin2": {
+        "connected": true,
+        "admin": "QBO"
+      },
       "date_refresh": "Fri, 27 Aug 2021 20:38:48"
     },
     "tasks": {
@@ -27,8 +33,14 @@
       "created_by": "John Smith"
     },
     "status": {
-      "connected": false,
-      "admin": "Sam",
+      "admin1": {
+        "connected": true,
+        "admin": "Clio"
+      },
+      "admin2": {
+        "connected": true,
+        "admin": "QBO"
+      },
       "date_refresh": "Fri, 27 Aug 2021 20:38:48"
     },
     "tasks": {
@@ -46,8 +58,14 @@
       "created_by": "Harkirat Singh Virdi"
     },
     "status": {
-      "connected": true,
-      "admin": "Clio",
+      "admin1": {
+        "connected": true,
+        "admin": "Clio"
+      },
+      "admin2": {
+        "connected": true,
+        "admin": "QBO"
+      },
       "date_refresh": "Fri, 27 Aug 2021 20:38:48"
     },
     "tasks": {
@@ -65,8 +83,14 @@
       "created_by": "Harkirat Singh Virdi"
     },
     "status": {
-      "connected": true,
-      "admin": "Clio",
+      "admin1": {
+        "connected": true,
+        "admin": "Clio"
+      },
+      "admin2": {
+        "connected": true,
+        "admin": "QBO"
+      },
       "date_refresh": "Fri, 27 Aug 2021 20:38:48"
     },
     "tasks": {
@@ -84,8 +108,14 @@
       "created_by": "Jake Dawson"
     },
     "status": {
-      "connected": true,
-      "admin": "Clio",
+      "admin1": {
+        "connected": true,
+        "admin": "Clio"
+      },
+      "admin2": {
+        "connected": true,
+        "admin": "QBO"
+      },
       "date_refresh": "Fri, 27 Aug 2021 20:38:48"
     },
     "tasks": {
