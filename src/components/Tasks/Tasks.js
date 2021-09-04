@@ -18,16 +18,18 @@ const Tasks = ({ data }) => {
         <h3>Tasks</h3>
         <button className="rounded_button">View All</button>
       </div>
-      <TableHeading width="w-40" heading={headings}></TableHeading>
-      {data.map((e) => {
-        return (
-          <tr>
-            <td>{e.name}</td>
-            <td>{e.deadline}</td>
-            <td style={{ color: determineColor(e.status) }}>{e.status}</td>
-          </tr>
-        );
-      })}
+      <table>
+        <TableHeading width="w-40" heading={headings}></TableHeading>
+        {data.map((e, key) => {
+          return (
+            <tr key={key}>
+              <td>{e.name}</td>
+              <td>{e.deadline}</td>
+              <td style={{ color: determineColor(e.status) }}>{e.status}</td>
+            </tr>
+          );
+        })}
+      </table>
     </div>
   );
 };

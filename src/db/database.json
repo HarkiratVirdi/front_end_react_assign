@@ -3,36 +3,43 @@
     "status": {
       "admin1": {
         "connected": true,
-        "admin": "Clio"
+        "admin": "Clio",
+        "lastConnect": "Tue, 31 Aug 2021 20:36:38"
       },
       "admin2": {
-        "connected": true,
-        "admin": "QBO"
+        "connected": false,
+        "admin": "QBO",
+        "lastConnect": ""
       },
-      "date_refresh": "Fri, 27 Aug 2021 20:38:48"
+      "date_refresh": "Friday, 27 Aug 2021 20:38:48"
     },
     "tasks": [
       {
-        "name": "Lorem ipsum dolor sit amet",
-        "deadline": "Fri, 27 Aug, 2021",
+        "name": "Lorem ipsum dolor sit",
+        "deadline": "Friday, 27 Aug, 2021",
         "status": "Completed"
       },
       {
-        "name": "Lorem ipsum dolor sit amet",
+        "name": "Lorem ipsum dolor sit",
         "deadline": "thursday, 21 July, 2021",
         "status": "In Progress"
+      },
+      {
+        "name": "Lorem ipsum dolor sit",
+        "deadline": "thursday, 21 July, 2021",
+        "status": "Rejected"
       }
     ],
     "reports": [
       {
-        "name": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit some",
         "from": "03-09-2021",
         "to": "08-09-2021",
         "created_at": "Wed 1 Sept, 2021",
         "created_by": "Harkirat Singh Virdi"
       },
       {
-        "name": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit some",
         "from": "03-09-2021",
         "to": "08-09-2021",
         "created_at": "Wed 1 Sept, 2021",
@@ -44,7 +51,7 @@
   {
     "reports": [
       {
-        "name": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit",
         "from": "03-10-2021",
         "to": "08-12-2021",
         "created_at": "Thurs 1 Sept, 2021",
@@ -54,22 +61,29 @@
     "status": {
       "admin1": {
         "connected": true,
-        "admin": "Clio"
+        "admin": "Clio",
+        "lastConnect": "Tue, 31 Aug 2021 20:36:38"
       },
       "admin2": {
-        "connected": true,
-        "admin": "QBO"
+        "connected": false,
+        "admin": "QBO",
+        "lastConnect": ""
       },
       "date_refresh": "Fri, 27 Aug 2021 20:38:48"
     },
     "tasks": [
       {
-        "name": "Lorem ipsum dolor sit amet",
+        "name": "Lorem ipsum dolor sit",
+        "deadline": "thursday, 21 July, 2021",
+        "status": "Rejected"
+      },
+      {
+        "name": "Lorem ipsum dolor sit",
         "deadline": "Fri, 27 Aug, 2021",
         "status": "Completed"
       },
       {
-        "name": "Lorem ipsum dolor sit amet",
+        "name": "Lorem ipsum dolor sit",
         "deadline": "thursday, 21 July, 2021",
         "status": "In Progress"
       }
@@ -79,32 +93,65 @@
   {
     "reports": [
       {
-        "name": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit",
         "from": "23-09-2021",
         "to": "01-09-2021",
         "created_at": "Tuesday 01 June, 2021",
+        "created_by": "Harkirat Singh Virdi"
+      },
+      {
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit",
+        "from": "03-09-2021",
+        "to": "08-09-2021",
+        "created_at": "Wed 1 Sept, 2021",
+        "created_by": "Harkirat Singh Virdi"
+      },
+      {
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit",
+        "from": "03-09-2021",
+        "to": "08-09-2021",
+        "created_at": "Wed 1 Sept, 2021",
+        "created_by": "Harkirat Singh Virdi"
+      },
+      {
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit",
+        "from": "03-09-2021",
+        "to": "08-09-2021",
+        "created_at": "Wed 1 Sept, 2021",
         "created_by": "Harkirat Singh Virdi"
       }
     ],
     "status": {
       "admin1": {
         "connected": true,
-        "admin": "Clio"
+        "admin": "Clio",
+        "lastConnect": "Tue, 31 Aug 2021 20:36:38"
       },
       "admin2": {
-        "connected": true,
-        "admin": "QBO"
+        "connected": false,
+        "admin": "QBO",
+        "lastConnect": ""
       },
       "date_refresh": "Fri, 27 Aug 2021 20:38:48"
     },
     "tasks": [
       {
-        "name": "Lorem ipsum dolor sit amet",
+        "name": "Lorem ipsum dolor sit",
         "deadline": "Fri, 27 Aug, 2021",
         "status": "Completed"
       },
       {
-        "name": "Lorem ipsum dolor sit amet",
+        "name": "Lorem ipsum dolor sit",
+        "deadline": "thursday, 21 July, 2021",
+        "status": "Rejected"
+      },
+      {
+        "name": "Lorem ipsum dolor sit",
+        "deadline": "thursday, 21 July, 2021",
+        "status": "Rejected"
+      },
+      {
+        "name": "Lorem ipsum dolor sit",
         "deadline": "thursday, 21 July, 2021",
         "status": "In Progress"
       }
@@ -114,34 +161,62 @@
   {
     "reports": [
       {
-        "name": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit",
         "from": "01-01-2021",
         "to": "01-09-2021",
         "created_at": "Friday 1 Sept, 2021",
-        "created_by": "Harkirat Singh Virdi"
+        "created_by": "Anonymous"
+      },
+      {
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit",
+        "from": "03-09-2021",
+        "to": "08-09-2021",
+        "created_at": "Wed 1 Sept, 2021",
+        "created_by": "Lorem ipsum"
+      },
+      {
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit",
+        "from": "03-09-2021",
+        "to": "08-09-2021",
+        "created_at": "Wed 1 Sept, 2021",
+        "created_by": "Someone"
+      },
+      {
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing elit",
+        "from": "03-09-2021",
+        "to": "08-09-2021",
+        "created_at": "Wed 1 Sept, 2021",
+        "created_by": "Anyone"
       }
     ],
     "status": {
       "admin1": {
-        "connected": true,
-        "admin": "Clio"
+        "connected": false,
+        "admin": "Clio",
+        "lastConnect": ""
       },
       "admin2": {
-        "connected": true,
-        "admin": "QBO"
+        "connected": false,
+        "admin": "QBO",
+        "lastConnect": ""
       },
       "date_refresh": "Fri, 27 Aug 2021 20:38:48"
     },
     "tasks": [
       {
-        "name": "Lorem ipsum dolor sit amet",
+        "name": "Lorem ipsum dolor sit",
         "deadline": "Fri, 27 Aug, 2021",
         "status": "Completed"
       },
       {
-        "name": "Lorem ipsum dolor sit amet",
+        "name": "Lorem ipsum dolor sit",
         "deadline": "thursday, 21 July, 2021",
         "status": "In Progress"
+      },
+      {
+        "name": "Lorem ipsum dolor sit",
+        "deadline": "thursday, 21 July, 2021",
+        "status": "Rejected"
       }
     ],
     "client": "Mary Smith"
@@ -149,7 +224,7 @@
   {
     "reports": [
       {
-        "name": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "name": "Lorem, ipsum dolor sit consectetur adipisicing ",
         "from": "03-01-2021",
         "to": "09-04-2021",
         "created_at": "Sunday 10 August, 2021",
@@ -158,23 +233,25 @@
     ],
     "status": {
       "admin1": {
-        "connected": true,
-        "admin": "Clio"
+        "connected": false,
+        "admin": "Clio",
+        "lastConnect": ""
       },
       "admin2": {
         "connected": true,
-        "admin": "QBO"
+        "admin": "QBO",
+        "lastConnect": "Tue, 31 Aug 2021 20:36:38"
       },
       "date_refresh": "Fri, 27 Aug 2021 20:38:48"
     },
     "tasks": [
       {
-        "name": "Lorem ipsum dolor sit amet",
+        "name": "Lorem ipsum dolor sit",
         "deadline": "Fri, 27 Aug, 2021",
         "status": "Completed"
       },
       {
-        "name": "Lorem ipsum dolor sit amet",
+        "name": "Lorem ipsum dolor sit",
         "deadline": "thursday, 21 July, 2021",
         "status": "In Progress"
       }

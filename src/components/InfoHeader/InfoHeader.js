@@ -8,7 +8,12 @@ const daysDropdown = [
   "last 1 year",
 ];
 
-const InfoHeader = ({ clientList, changeClient, currentClient }) => {
+const InfoHeader = ({
+  clientList,
+  changeClient,
+  changeDate,
+  currentClient,
+}) => {
   return (
     <>
       <div className="InfoHeader">
@@ -21,7 +26,7 @@ const InfoHeader = ({ clientList, changeClient, currentClient }) => {
         </div>
         <div className="client_info_right">
           <Dropdown
-            handleClientChange={changeClient}
+            handleDateChange={changeDate}
             type="days"
             list={daysDropdown}
           ></Dropdown>
@@ -34,7 +39,10 @@ const InfoHeader = ({ clientList, changeClient, currentClient }) => {
           <div className="user_login">
             <img src="" alt="" />
             <div className="user_name">
-              <h5 style={{ whiteSpace: "nowrap" }}> Jane Cooper</h5>
+              <h5 style={{ whiteSpace: "nowrap" }}>
+                {" "}
+                {currentClient[0].client}
+              </h5>
               <small>Developer</small>
             </div>
           </div>

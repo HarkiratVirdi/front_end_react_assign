@@ -124,6 +124,8 @@ main {
   border-radius: 0.2rem;
   align-items: center;
   width: 10rem;
+  cursor: pointer;
+
   padding: 0.2rem;
   background-color: white;
 }
@@ -169,6 +171,24 @@ button {
   flex: 1;
 }
 
+.refresh {
+  margin-top: 1rem;
+}
+
+.connected {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.connection_details {
+  display: flex;
+  align-items: center;
+}
+
+.connection_details img {
+  margin-right: 0.5rem;
+}
+
 .tasks {
   flex: 1;
 }
@@ -198,5 +218,20 @@ th {
 }
 
 td {
-  padding-right: 4rem;
+  padding: 1rem 2rem 0.2rem 1.8rem;
+  position: relative;
+  top: 0;
+}
+
+td::before {
+  content: "";
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  height: 0.1rem;
+  position: absolute;
+  top: 2.4rem;
+}
+
+.line {
+  border: 1px solid #eee;
 }

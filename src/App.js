@@ -16,8 +16,7 @@ function App() {
     });
 
     setAllClients(allClients);
-    console.log("cli", allClients);
-  }, []);
+  }, [setAllClients, allClients]);
 
   const handleClientChange = (e) => {
     const name = e.target.innerText;
@@ -26,7 +25,10 @@ function App() {
     });
 
     setcurrentClient(currentCli);
-    console.log("current", currentCli);
+  };
+
+  const handleDateChange = (e) => {
+    const date = e.target.innerText;
   };
 
   return (
@@ -37,6 +39,7 @@ function App() {
       <hr />
       <main>
         <InfoHeader
+          changeDate={handleDateChange}
           changeClient={handleClientChange}
           clientList={allClients}
           currentClient={currentClient}

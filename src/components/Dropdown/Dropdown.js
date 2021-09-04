@@ -1,8 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ArrowDown from "../../assets/arrowdown.jpg";
-const Dropdown = ({ list, type, handleClientChange, currentClient }) => {
+const Dropdown = ({
+  list,
+  type,
+  handleClientChange,
+  currentClient,
+  handleDateChange,
+}) => {
   const [open, setopen] = useState(false);
   const onClick = () => setopen(!open);
+
+  const handleDateOrClient = (e) => {
+    return handleClientChange ? handleClientChange(e) : handleDateChange(e);
+  };
 
   return (
     <div className="dropdown">
@@ -15,10 +25,11 @@ const Dropdown = ({ list, type, handleClientChange, currentClient }) => {
         <img src={ArrowDown} alt="arrowDown" />
       </button>
       <div className={`menu ${open ? "show" : "hide"}`}>
-        {list.map((e) => (
+        {list.map((e, key) => (
           <button
+            key={key}
             onClick={(e) => {
-              handleClientChange(e);
+              handleDateOrClient(e);
               setopen(!open);
             }}
           >
